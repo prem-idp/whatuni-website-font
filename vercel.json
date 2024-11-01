@@ -1,8 +1,19 @@
 { 
-    "rewrites": [
+    "framework": "nextjs",    
+    "version": 2, 
+    "routes": [ 
         { 
-            "source": "/(.*)", 
-            "destination": "/" 
+            "src": "/(.)", 
+            "dest": "/server.js" 
+        }, 
+            
+        {   
+            "src": "/views/layouts/main.handlebars", 
+            "dest": "/server.js"   
+        }, 
+        { 
+            "src": "/public/(.*)", 
+            "dest": "/public/$1" 
         }
-    ]
+    ] 
 }
