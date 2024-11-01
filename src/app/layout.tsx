@@ -19,10 +19,8 @@ export default function RootLayout({
     <html lang="en" className={` ${interRegular.variable} ${interSemibold.variable} ${interBold.variable} ${farroMedium.variable} ${farroBold.variable} `}>
       <body>
         <main className="bg-neutral-50">
-          <Header />
           {children}
-          <Footer />
-        </main>
+          </main>
       </body>
     </html>
   );
