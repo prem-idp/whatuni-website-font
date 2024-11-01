@@ -4,5 +4,15 @@
             "source": "/(.*)", 
             "destination": "/" 
         }
+    ],
+    "routes": [
+        {
+            "src": "/",
+            "des": "/"
+        },
+        {
+            "src":"/test",
+            "des": "/"
+        }
     ] 
 }
