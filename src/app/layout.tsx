@@ -1,7 +1,5 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import Header from "./components/header/headercomponents";
-import Footer from "./components/footer/footercomponents";
 
 import {interRegular, interSemibold, interBold, farroMedium, farroBold} from "@/app/utils/customfonts"
 
