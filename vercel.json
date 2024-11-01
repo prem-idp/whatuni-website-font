@@ -4,14 +4,5 @@
             "source": "/(.*)", 
             "destination": "/" 
         }
-    ],
-    "routes": [
-        {
-            "source": "/",
-            "destination": "/"
-        },{
-            "source": "/test",
-            "destination": "/"  
-        }
-    ] 
+    ]
 }
